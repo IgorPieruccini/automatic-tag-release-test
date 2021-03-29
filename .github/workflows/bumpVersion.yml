@@ -2,8 +2,8 @@ name: Bump version
 on:
   push:
     branches:
-      - main
-  pull_request_target: ${{main}}
+      - master
+  pull_request_target: {branches: main}
 jobs:
   build:
     runs-on: ubuntu-latest
