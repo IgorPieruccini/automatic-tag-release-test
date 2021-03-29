@@ -21,4 +21,5 @@ jobs:
         with:
           tag_name: ${{ steps.tag_version.outputs.new_tag }}
           release_name: Release ${{ steps.tag_version.outputs.new_tag }}
+          release_branches: release.*,hotfix.*
           body: ${{ steps.tag_version.outputs.changelog }}
