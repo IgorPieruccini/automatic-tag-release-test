@@ -1,7 +1,11 @@
 name: Bump version
 on:
+  push:
+    branches:
+      - master
   pull_request_target:
     branches: [main]
+    
       
 jobs:
   build:
