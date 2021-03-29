@@ -7,4 +7,4 @@ Test repository for testing GitHub tag bump
 05. try github tag
 06. test pr again
 07. try release with random name (random name)
-07. random name branch should not gerenate tag (04)
+07. random name branch should not gerenate tag (05)
