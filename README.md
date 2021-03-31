@@ -17,3 +17,4 @@ Test repository for testing GitHub tag bump
 pretend to fix something
 add a feat (2)
 try to add body changelog
+pull request to development should not create a tag release
