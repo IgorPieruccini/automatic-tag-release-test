@@ -26,4 +26,3 @@ jobs:
           title: ${{ steps.tag_version.outputs.new_tag }}
           automatic_release_tag: ${{ steps.tag_version.outputs.new_tag }}
           prerelease: true
-          body: ${{ steps.tag_version.outputs.changelog }}
