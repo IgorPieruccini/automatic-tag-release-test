@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "commit": "cz"
+  },
+  "devDependencies": {
+    "commitizen": "^4.2.3",
+    "cz-conventional-changelog": "3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "name": "automatic-tag-release-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/IgorPieruccini/automatic-tag-release-test.git",
+  "author": "Igor Pieruccini",
+  "license": "MIT"
+}
