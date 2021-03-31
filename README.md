@@ -11,4 +11,4 @@ Test repository for testing GitHub tag bump
 08. should generate a  rc tag
 10. generate one more example of rc tag (01)
 11. add changelog
-12. major change
+12. major change (feat: some major changes)
