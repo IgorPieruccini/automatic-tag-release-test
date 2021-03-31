@@ -9,4 +9,5 @@ Test repository for testing GitHub tag bump
 07. try release with random name (random name)
 07. random name branch should not generate tag (07)
 08. should generate a  rc tag
-10. generate one more example of rc tag 
+10. generate one more example of rc tag (01)
+11. add changelog
