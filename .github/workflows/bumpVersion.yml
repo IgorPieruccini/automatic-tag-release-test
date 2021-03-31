@@ -26,4 +26,4 @@ jobs:
           title: '{{ steps.tag_version.outputs.new_tag[:-7] }}'
           automatic_release_tag: '{{ steps.tag_version.outputs.new_tag[:-7] }}'
           prerelease: true
-          files: ${{ steps.tag_version.outputs.changelog }}
+          body: ${{ steps.tag_version.outputs.changelog }}
