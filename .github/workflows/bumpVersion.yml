@@ -18,6 +18,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           release_branches: release.*
           append_to_pre_release_tag: ''
+          custom_tag: release-test
           
       - name: Create a GitHub release
         uses: "marvinpinto/action-automatic-releases@latest"
