@@ -15,3 +15,4 @@ Test repository for testing GitHub tag bump
 12 test commit messages to generate changelogs
 
 pretend to fix something
+add a feat
